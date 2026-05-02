@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Item } from "../types/item";
+import type { Item } from "../types/item";
 
 const ItemCard = ({ item }: { item: Item }) => {
   return (
