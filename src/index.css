@@ -4,3 +4,7 @@
   --color-primary: #1E3A8A;
   --color-accent: #F59E0B;
 }
+
+.input {
+  @apply border p-2 w-full mb-2 rounded;
+}
