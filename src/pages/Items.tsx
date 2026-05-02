@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Item } from "../types/item";
+import type { Item } from "../types/item";
 import axios from "axios";
 import ItemCard from "../components/ItemCard";
+
 
 const Items = () => {
   const [items, setItems] = useState<Item[]>([]);
